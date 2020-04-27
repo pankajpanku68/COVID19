@@ -17,7 +17,7 @@ warnings.filterwarnings("ignore")
 
 path_dir = 'C:\\Users\\kumapank\\Documents\\COVID-19\\'
 
-# Downlaod COVID Data
+# Downlaod COVID Data from Web
 def download_COVID_data(dt = '2020-04-27'):
     try:
         df = pd.read_csv(path_dir+'\\input\\time_series_2019 Vertical Data\\Consolidated_COVID_data_'+dt+'.csv')
